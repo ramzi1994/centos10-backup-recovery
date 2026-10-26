@@ -1,0 +1,6 @@
+[Unit]
+Description=Automated Department Backup
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash /usr/local/sbin/department-backup.sh
